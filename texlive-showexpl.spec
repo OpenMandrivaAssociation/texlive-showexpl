@@ -53,6 +53,7 @@ the related result in the same document.
 #- source
 %doc %{_texmfdistdir}/source/latex/showexpl/showexpl.dtx
 %doc %{_texmfdistdir}/source/latex/showexpl/showexpl.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ the related result in the same document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
