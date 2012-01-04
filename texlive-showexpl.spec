@@ -6,7 +6,7 @@
 # catalog-version v0.3i
 Name:		texlive-showexpl
 Version:	v0.3i
-Release:	1
+Release:	2
 Summary:	Typesetting LaTeX source code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/showexpl
