@@ -1,12 +1,12 @@
-# revision 23669
+# revision 29838
 # category Package
 # catalog-ctan /macros/latex/contrib/showexpl
-# catalog-date 2011-08-23 07:18:10 +0200
+# catalog-date 2013-04-10 10:08:31 +0200
 # catalog-license lppl
-# catalog-version v0.3i
+# catalog-version v0.3k
 Name:		texlive-showexpl
-Version:	v0.3i
-Release:	2
+Version:	v0.3k
+Release:	1
 Summary:	Typesetting LaTeX source code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/showexpl
@@ -38,7 +38,6 @@ the related result in the same document.
 %doc %{_texmfdistdir}/doc/latex/showexpl/result-picture.pdf
 %doc %{_texmfdistdir}/doc/latex/showexpl/showexpl-test.pdf
 %doc %{_texmfdistdir}/doc/latex/showexpl/showexpl-test.tex
-%doc %{_texmfdistdir}/doc/latex/showexpl/showexpl.cfg
 %doc %{_texmfdistdir}/doc/latex/showexpl/showexpl.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/showexpl/showexpl.dtx
@@ -53,17 +52,3 @@ the related result in the same document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.3i-2
-+ Revision: 755984
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.3i-1
-+ Revision: 719527
-- texlive-showexpl
-- texlive-showexpl
-- texlive-showexpl
-- texlive-showexpl
-
