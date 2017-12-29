@@ -1,12 +1,6 @@
-# revision 32737
-# category Package
-# catalog-ctan /macros/latex/contrib/showexpl
-# catalog-date 2014-01-20 15:14:58 +0100
-# catalog-license lppl
-# catalog-version v0.3l
 Name:		texlive-showexpl
-Version:	v0.3l
-Release:	5
+Version:	0.3o
+Release:	1
 Summary:	Typesetting LaTeX source code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/showexpl
