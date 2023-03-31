@@ -1,6 +1,6 @@
 Name:		texlive-showexpl
 Version:	57414
-Release:	1
+Release:	2
 Summary:	Typesetting LaTeX source code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/showexpl
