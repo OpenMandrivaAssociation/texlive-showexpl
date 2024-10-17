@@ -3,7 +3,7 @@ Version:	57414
 Release:	2
 Summary:	Typesetting LaTeX source code
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/showexpl
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/showexpl
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/showexpl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/showexpl.doc.r%{version}.tar.xz
